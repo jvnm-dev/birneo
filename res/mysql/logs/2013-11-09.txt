@@ -1,0 +1,405 @@
+Time : 21:10:34
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM users WHERE id = :myid
+
+Time : 21:01:08
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM users WHERE id = :myid
+
+Time : 20:39:46
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM users WHERE id=:userid
+
+Time : 20:37:42
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+Raw SQL : SELECT * FROM users WHERE id=:userid
+
+Time : 20:36:53
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+Raw SQL : SELECT * FROM users WHERE id=:userid
+
+Time : 20:36:52
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+Raw SQL : SELECT * FROM users WHERE id=:userid
+
+Time : 20:36:52
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+Raw SQL : SELECT * FROM users WHERE id=:userid
+
+Time : 20:36:52
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+Raw SQL : SELECT * FROM users WHERE id=:userid
+
+Time : 20:36:50
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+Raw SQL : SELECT * FROM users WHERE id=:userid
+
+Time : 20:19:48
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO notification(contenu,id_proprio,id_exp,readed,link) VALUES(:content,:id_follower,:userid,':readed',:link)
+
+Time : 19:24:48
+SQLSTATE[HY000] [2019] Can't initialize character set utf8,dbname=birneo2 (path: /usr/share/mysql/charsets/)
+
+Time : 19:24:40
+SQLSTATE[HY000] [2019] Can't initialize character set utf8,dbname=birneo2 (path: /usr/share/mysql/charsets/)
+
+Time : 19:24:32
+SQLSTATE[HY000] [2019] Can't initialize character set utf8,dbname=birneo2 (path: /usr/share/mysql/charsets/)
+
+Time : 19:24:24
+SQLSTATE[HY000] [2019] Can't initialize character set utf8,dbname=birneo2 (path: /usr/share/mysql/charsets/)
+
+Time : 19:24:15
+SQLSTATE[HY000] [2019] Can't initialize character set utf8,dbname=birneo2 (path: /usr/share/mysql/charsets/)
+
+Time : 19:24:07
+SQLSTATE[HY000] [2019] Can't initialize character set utf8,dbname=birneo2 (path: /usr/share/mysql/charsets/)
+
+Time : 19:23:59
+SQLSTATE[HY000] [2019] Can't initialize character set utf8,dbname=birneo2 (path: /usr/share/mysql/charsets/)
+
+Time : 19:23:51
+SQLSTATE[HY000] [2019] Can't initialize character set utf8,dbname=birneo2 (path: /usr/share/mysql/charsets/)
+
+Time : 19:23:42
+SQLSTATE[HY000] [2019] Can't initialize character set utf8,dbname=birneo2 (path: /usr/share/mysql/charsets/)
+
+Time : 19:23:33
+SQLSTATE[HY000] [2019] Can't initialize character set utf8,dbname=birneo2 (path: /usr/share/mysql/charsets/)
+
+Time : 19:23:25
+SQLSTATE[HY000] [2019] Can't initialize character set utf8,dbname=birneo2 (path: /usr/share/mysql/charsets/)
+
+Time : 19:23:17
+SQLSTATE[HY000] [2019] Can't initialize character set utf8,dbname=birneo2 (path: /usr/share/mysql/charsets/)
+
+Time : 19:23:09
+SQLSTATE[HY000] [2019] Can't initialize character set utf8,dbname=birneo2 (path: /usr/share/mysql/charsets/)
+
+Time : 19:23:00
+SQLSTATE[HY000] [2019] Can't initialize character set utf8,dbname=birneo2 (path: /usr/share/mysql/charsets/)
+
+Time : 19:22:57
+SQLSTATE[HY000] [2019] Can't initialize character set utf8,dbname=birneo2 (path: /usr/share/mysql/charsets/)
+
+Time : 17:37:11
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+Raw SQL : SELECT * FROM users WHERE id=:userid
+
+Time : 17:31:42
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+Raw SQL : SELECT * FROM users WHERE id=:userid
+
+Time : 17:29:16
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+Raw SQL : SELECT * FROM users WHERE id = :id
+
+Time : 17:28:24
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+Raw SQL : SELECT * FROM users WHERE id = :id
+
+Time : 17:26:44
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+Raw SQL : SELECT * FROM users WHERE id = :id
+
+Time : 17:12:42
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO notification(contenu,id_proprio,id_exp,readed,link) VALUES(:content,:id_follower,:userid,':readed',:link)
+
+Time : 16:56:22
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :id_followed AND id_follower = :id_followed AND id_post = :id_post
+
+Time : 16:55:32
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :id_followed AND id_follower = :id_followed AND id_post = :id_post
+
+Time : 16:51:38
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :id_followed AND id_follower = :id_followed AND id_post = :id_post
+
+Time : 16:50:50
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :id_followed AND id_follower = :id_followed AND id_post = :id_post
+
+Time : 16:49:44
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :id_followed AND id_follower = :id_followed AND id_post = :id_post
+
+Time : 16:48:32
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :id_followed AND id_follower = :id_followed AND id_post = :id_post
+
+Time : 16:47:45
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :id_followed AND id_follower = :id_followed AND id_post = :id_post
+
+Time : 16:46:53
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :id_followed AND id_follower = :id_followed AND id_post = :id_post
+
+Time : 16:46:17
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :id_followed AND id_follower = :id_followed AND id_post = :id_post
+
+Time : 16:44:55
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :id_followed AND id_follower = :id_followed AND id_post = :id_post
+
+Time : 16:37:25
+SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+Time : 16:26:28
+SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+Time : 16:20:14
+SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+Time : 16:20:03
+SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+Time : 16:19:59
+SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+Time : 15:38:21
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 15:37:34
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 15:37:28
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 15:36:21
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 15:36:07
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 15:36:05
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 15:35:50
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 15:35:12
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM users WHERE id = :id
+
+Time : 15:35:09
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM users WHERE id = :id
+
+Time : 15:34:05
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM users WHERE id = :id
+
+Time : 15:33:51
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM users WHERE id = :id
+
+Time : 15:33:49
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM users WHERE id = :id
+
+Time : 15:01:24
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :publicationidposter AND id_follower = :userid
+
+Time : 15:01:09
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :publicationidposter AND id_follower = :userid
+
+Time : 15:00:57
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :publicationidposter AND id_follower = :userid
+
+Time : 15:00:39
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :publicationidposter AND id_follower = :userid
+
+Time : 15:00:36
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :publicationidposter AND id_follower = :userid
+
+Time : 15:00:17
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :publicationidposter AND id_follower = :userid
+
+Time : 15:00:13
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :publicationidposter AND id_follower = :userid
+
+Time : 15:00:00
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :publicationidposter AND id_follower = :userid
+
+Time : 14:59:59
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :publicationidposter AND id_follower = :userid
+
+Time : 14:59:41
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :publicationidposter AND id_follower = :userid
+
+Time : 14:59:05
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :publicationidposter AND id_follower = :userid
+
+Time : 14:58:51
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :publicationidposter AND id_follower = :userid
+
+Time : 14:58:47
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :publicationidposter AND id_follower = :userid
+
+Time : 14:58:09
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :publicationidposter AND id_follower = :userid
+
+Time : 14:57:57
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :publicationidposter AND id_follower = :userid
+
+Time : 14:57:42
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :publicationidposter AND id_follower = :userid
+
+Time : 14:57:34
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :publicationidposter AND id_follower = :userid
+
+Time : 14:56:55
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :publicationidposter AND id_follower = :userid
+
+Time : 14:55:30
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :publicationidposter AND id_follower = :userid
+
+Time : 14:55:16
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :publicationidposter AND id_follower = :userid
+
+Time : 14:55:08
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM follow WHERE id_followed = :publicationidposter AND id_follower = :userid
+
+Time : 14:34:46
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''id_poster','content','id_publication','date') VALUES (?,?,?,?)' at line 1
+Raw SQL : SELECT count(*) FROM comments WHERE id_publication = '18'
+
+Time : 14:34:43
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''id_poster','content','id_publication','date') VALUES (?,?,?,?)' at line 1
+Raw SQL : SELECT count(*) FROM comments WHERE id_publication = '18'
+
+Time : 14:27:43
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE posts SET comments = comments+:un WHERE id=:id_publication
+
+Time : 14:27:19
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE posts SET comments = comments+:comments WHERE id=:id_publication
+
+Time : 14:26:11
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE posts SET comments = :comments WHERE id=:id_publication
+
+Time : 13:45:52
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT * FROM friends WHERE id_exp=:idun1 AND id_dest='1' OR  id_exp='1' AND id_dest=:idun2
+
+Time : 13:45:42
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT * FROM friends WHERE id_exp=:idun1 AND id_dest='1' OR  id_exp='1' AND id_dest=:idun2
+
+Time : 13:22:52
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM friends WHERE id_exp = :userid AND active = :un
+
+Time : 13:22:43
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM friends WHERE id_exp = :userid AND active = :un
+
+Time : 13:22:42
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM friends WHERE id_exp = :userid AND active = :un
+
+Time : 13:22:25
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM friends WHERE id_exp = :userid AND active = :un
+
+Time : 13:22:12
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM friends WHERE id_exp = :userid AND active = :un
+
+Time : 13:21:57
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM friends WHERE id_exp = :userid AND active = :un
+
+Time : 13:21:55
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM friends WHERE id_exp = :userid AND active = :un
+
+Time : 13:21:43
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM friends WHERE id_exp = :userid AND active = :un
+
+Time : 13:21:33
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM friends WHERE id_exp = :userid AND active = :un
+
+Time : 13:05:56
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM friends WHERE id_exp = :userid1 AND id_dest = :profileid1 AND active = :un1
+                                                             OR    id_exp = :profileid2 AND id_dest = :userid2 AND active = :un2
+
+Time : 13:05:42
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM friends WHERE id_exp = :userid1 AND id_dest = :profileid1 AND active = :un1
+                                                             OR    id_exp = :profileid2 AND id_dest = :userid2 AND active = :un2
+
+Time : 13:03:46
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM users WHERE id=:userid
+
+Time : 13:03:44
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM users WHERE id=:userid
+
+Time : 13:03:42
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM users WHERE username=:username
+
+Time : 13:03:28
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM users WHERE username=:username
+
+Time : 13:03:00
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM users WHERE username=:username
+
+Time : 12:29:43
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : UPDATE users SET ip = :ip WHERE id = :id
+
+Time : 12:29:35
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : UPDATE users SET ip = :ip WHERE id = :id
+
+Time : 12:26:30
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE posts SET comments = :comments WHERE id=:id_publication
+
+Time : 12:26:08
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE posts SET comments = :comments WHERE id=:id_publication

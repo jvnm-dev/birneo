@@ -1,0 +1,98 @@
+Time : 22:24:05
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'count' in 'field list'
+
+Time : 22:00:19
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT count(*) FROM discussion WHERE id_1 = :uid AND readed = :readed AND notifPour = :uid OR id_2 = :uid AND readed = :readed AND notifPour = :uid
+
+Time : 22:00:10
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT count(*) FROM discussion WHERE id_1 = :uid AND readed = :readed AND notifPour = :uid OR id_2 = :uid AND readed = :readed AND notifPour = :uid
+
+Time : 21:59:06
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT count(*) FROM discussion WHERE id_1 = :uid AND readed = :readed AND notifPour = :uid OR id_2 = :uid AND readed = :readed AND notifPour = :uid
+
+Time : 21:59:04
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM discussion WHERE id_1 = :uid AND readed = :readed AND notifPour = :uid OR id_2 = :uid AND readed = :readed AND notifPour = :uid
+
+Time : 21:58:58
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM discussion WHERE id_1 = :uid AND readed = :readed AND notifPour = :uid OR id_2 = :uid AND readed = :readed AND notifPour = :uid
+
+Time : 21:58:53
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT count(*) FROM discussion WHERE id_1 = :uid AND readed = :readed AND notifPour = :uid OR id_2 = :uid AND readed = :readed AND notifPour = :uid
+
+Time : 21:58:28
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT count(*) FROM discussion WHERE id_1 = :uid AND readed = :readed AND notifPour = :uid OR id_2 = :uid AND readed = :readed AND notifPour = :uid
+
+Time : 21:58:27
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT count(*) FROM discussion WHERE id_1 = :uid AND readed = :readed AND notifPour = :uid OR id_2 = :uid AND readed = :readed AND notifPour = :uid
+
+Time : 21:57:27
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM discussion WHERE id_1 = :uid AND readed = :readed AND notifPour = :uid OR id_2 = :uid AND readed = :readed AND notifPour = :uid
+
+Time : 21:57:18
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM discussion WHERE id_1 = :uid AND readed = :readed AND notifPour = :uid OR id_2 = :uid AND readed = :readed AND notifPour = :uid
+
+Time : 21:56:00
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM discussion WHERE id_1 = :uid AND readed = :readed AND notifPour = :uid OR id_2 = :uid AND readed = :readed AND notifPour = :uid
+
+Time : 21:55:55
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM discussion WHERE id_1 = :uid AND readed = :readed AND notifPour = :uid OR id_2 = :uid AND readed = :readed AND notifPour = :uid
+
+Time : 21:55:54
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM discussion WHERE id_1 = :uid AND readed = :readed AND notifPour = :uid OR id_2 = :uid AND readed = :readed AND notifPour = :uid
+
+Time : 21:55:53
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM discussion WHERE id_1 = :uid AND readed = :readed AND notifPour = :uid OR id_2 = :uid AND readed = :readed AND notifPour = :uid
+
+Time : 21:54:47
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM discussion WHERE id_1 = :uid AND readed = :readed AND notifPour = :uid OR id_2 = :uid AND readed = :readed AND notifPour = :uid
+
+Time : 21:54:46
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM discussion WHERE id_1 = :uid AND readed = :readed AND notifPour = :uid OR id_2 = :uid AND readed = :readed AND notifPour = :uid
+
+Time : 21:54:39
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM discussion WHERE id_1 = :uid AND readed = :readed AND notifPour = :uid OR id_2 = :uid AND readed = :readed AND notifPour = :uid
+
+Time : 21:54:28
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM discussion WHERE id_1 = :uid AND readed = :readed AND notifPour = :uid OR id_2 = :uid AND readed = :readed AND notifPour = :uid
+
+Time : 21:54:27
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM discussion WHERE id_1 = :uid AND readed = :readed AND notifPour = :uid OR id_2 = :uid AND readed = :readed AND notifPour = :uid
+
+Time : 21:54:26
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM discussion WHERE id_1 = :uid AND readed = :readed AND notifPour = :uid OR id_2 = :uid AND readed = :readed AND notifPour = :uid
+
+Time : 21:53:40
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM discussion WHERE id_1 = :uid AND readed = :readed AND notifPour = :uid OR id_2 = :uid AND readed = :readed AND notifPour = :uid
+
+Time : 21:53:30
+SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+Time : 21:53:21
+SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+Time : 21:53:19
+SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+Time : 21:53:18
+SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)

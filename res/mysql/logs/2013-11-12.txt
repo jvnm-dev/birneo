@@ -1,0 +1,3 @@
+Time : 20:09:08
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '260' for key 'PRIMARY'
+Raw SQL : INSERT INTO users(username,email,password,sex,name,surname,situation,job,description,type) VALUES(:username,:email,:password,:sex,:name,:surname,:situation,:job,:description,:type)

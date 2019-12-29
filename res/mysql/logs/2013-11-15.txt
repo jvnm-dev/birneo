@@ -1,0 +1,67 @@
+Time : 19:50:43
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : SELECT * FROM banip
+
+Time : 19:50:35
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : SELECT * FROM banip
+
+Time : 19:50:33
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : SELECT * FROM banip
+
+Time : 19:50:26
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : SELECT * FROM banip
+
+Time : 19:50:25
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : SELECT * FROM banip
+
+Time : 19:50:25
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : SELECT * FROM banip
+
+Time : 19:50:25
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : SELECT * FROM banip
+
+Time : 19:50:25
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : SELECT * FROM banip
+
+Time : 19:50:24
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : SELECT * FROM banip
+
+Time : 19:50:24
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : SELECT * FROM banip
+
+Time : 19:50:24
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : SELECT * FROM banip
+
+Time : 19:50:23
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : SELECT * FROM banip
+
+Time : 19:38:13
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : SELECT * FROM banip
+
+Time : 19:37:24
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : SELECT * FROM banip
+
+Time : 19:37:06
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : SELECT * FROM banip
+
+Time : 19:37:05
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : SELECT * FROM banip
+
+Time : 19:36:47
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : SELECT * FROM banip

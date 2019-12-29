@@ -1,0 +1,16 @@
+Time : 17:09:35
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE posts SET comments = :comments WHERE id=:id_publication
+
+Time : 17:08:59
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE posts SET comments = :comments WHERE id=:id_publication
+
+Time : 17:05:02
+SQLSTATE[42000]: Syntax error or access violation: 1115 Unknown character set: 'utf'
+
+Time : 15:48:25
+SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+Time : 15:48:20
+SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)

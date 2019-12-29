@@ -1,0 +1,100 @@
+/* COULEUR UTILISATEUR */
+
+      body{
+        background-image:url("<?php echo base64_decode($my_info[0]['fond']); ?>");
+      }
+
+
+      .navbar-inner {
+          background-color: <?php echo $my_info[0]['color_primary']; ?>;
+      }
+
+      .navbar .nav > li > a:hover, .navbar .nav > li > a:focus {
+          border-color: <?php echo $my_info[0]['color_secondary']; ?>;
+          color: #DDDDDD;
+      }
+
+      .nav-list > li > a:hover, .nav-list > li > a:focus, .nav-list > .active > a, .nav-list > .active > a:hover, .nav-list > .active > a:focus {
+          border-color: <?php echo $my_info[0]['color_secondary']; ?>;
+      }
+
+      .nav-list .nav-header {
+          color: <?php echo $my_info[0]['color_primary']; ?>;
+      }
+
+
+      .well > .well, #toutLeMondePublication > .well, #amisPublication > .well {
+          border: 2px solid <?php echo $my_info[0]['color_primary']; ?>;
+      }
+
+      .generatedPost{
+        border: 2px solid <?php echo $my_info[0]['color_primary']; ?>;
+      }
+
+      .btn-danger {
+          background-color: <?php echo $my_info[0]['color_primary']; ?>;
+          background-image: linear-gradient(to bottom, <?php echo $my_info[0]['color_primary']; ?>, <?php echo $my_info[0]['color_primary']; ?>);
+          border-color: <?php echo $my_info[0]['color_primary']; ?>;
+      }
+
+      .btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .btn-danger.disabled, .btn-danger[disabled] {
+        background-color: <?php echo $my_info[0]['color_primary']; ?>;
+      }
+
+      .btn-primary {
+          background-color: <?php echo $my_info[0]['color_secondary']; ?>;
+          background-image: linear-gradient(to bottom, <?php echo $my_info[0]['color_secondary']; ?>, <?php echo $my_info[0]['color_secondary']; ?>);
+          border-color: <?php echo $my_info[0]['color_secondary']; ?>;
+      }
+
+      .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+        background-color: <?php echo $my_info[0]['color_secondary']; ?>;
+      }
+
+      .colorBirneo {
+        color: <?php echo $my_info[0]['color_primary']; ?>;
+      }
+
+      .colorBirneo:hover {
+        color: <?php echo $my_info[0]['color_primary']; ?>;
+      }
+
+      .backgroundBirneo {
+        background-color: <?php echo $my_info[0]['color_primary']; ?>;
+      }
+
+      .backgroundBirneo:hover {
+        background-color: <?php echo $my_info[0]['color_secondary']; ?>;
+      }
+
+      .borderBirneo {
+        border: 3px solid <?php echo $my_info[0]['color_primary']; ?>;
+      }
+
+      .notifBirneo {
+        background-color: <?php echo $my_info[0]['color_primary']; ?>;
+        color: <?php echo $my_info[0]['color_secondary']; ?>;
+        width: 400px;
+        -webkit-transition: all .3s ease-in;
+        -moz-transition: all .3s ease-in;
+        -o-transition: all .3s ease-in;
+        transition: all .3s ease-in;
+      }
+
+      .notifBirneo:hover {
+        background-color: <?php echo $my_info[0]['color_secondary']; ?>;
+        color: <?php echo $my_info[0]['color_primary']; ?>;
+        cursor: pointer;
+      }
+
+      .nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
+          border-color: <?php echo $my_info[0]['color_secondary']; ?>;
+      }
+
+      .nav.nav-pills > li > a:hover,
+      .nav.nav-pills > li > a:focus {
+        border-color: <?php echo $my_info[0]['color_secondary']; ?>;
+      }
+      
+
+      /**/

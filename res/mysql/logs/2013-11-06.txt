@@ -1,0 +1,426 @@
+Time : 18:37:44
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT * FROM messages WHERE id_expediteur = :dataid1 AND id_destinataire = :dataid2 OR  id_destinataire = :iddata1 AND id_expediteur=:iddata2 ORDER BY id DESC LIMIT 0,1
+
+Time : 18:37:30
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT * FROM messages WHERE id_expediteur = :dataid1 AND id_destinataire = :dataid2 OR  id_destinataire = :iddata1 AND id_expediteur=:iddata2 ORDER BY id DESC LIMIT 0,1
+
+Time : 18:36:36
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM messages WHERE id_expediteur = :dataid1 AND id_destinataire = :dataid2 OR  id_destinataire = :iddata1 AND id_expediteur=:iddata2 ORDER BY id DESC LIMIT 0,1
+
+Time : 18:36:22
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM messages WHERE id_expediteur = :dataid1 AND id_destinataire = :dataid2 OR  id_destinataire = :iddata1 AND id_expediteur=:iddata2 ORDER BY id DESC LIMIT 0,1
+
+Time : 18:35:30
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM messages WHERE id_expediteur = :dataid1 AND id_destinataire = :dataid2 OR  id_destinataire = :iddata1 AND id_expediteur=:iddata2 ORDER BY id DESC LIMIT 0,1
+
+Time : 18:35:26
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM messages WHERE id_expediteur = :dataid1 AND id_destinataire = :dataid2 OR  id_destinataire = :iddata1 AND id_expediteur=:iddata2 ORDER BY id DESC LIMIT 0,1
+
+Time : 18:35:13
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM messages WHERE id_expediteur = :dataid1 AND id_destinataire = :dataid2 OR  id_destinataire = :iddata1 AND id_expediteur=:iddata2 ORDER BY id DESC LIMIT 0,1
+
+Time : 18:35:11
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM messages WHERE id_expediteur = :dataid1 AND id_destinataire = :dataid2 OR  id_destinataire = :iddata1 AND id_expediteur=:iddata2 ORDER BY id DESC LIMIT 0,1
+
+Time : 18:34:17
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM messages WHERE 
+                        id_expediteur = :dataid11 AND id_destinataire=:dataid21
+                        OR  id_destinataire = :dataid12 AND id_expediteur=:dataid22
+                        ORDER BY id DESC LIMIT 0,1
+
+Time : 18:34:03
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM messages WHERE 
+                        id_expediteur = :dataid11 AND id_destinataire=:dataid21
+                        OR  id_destinataire = :dataid12 AND id_expediteur=:dataid22
+                        ORDER BY id DESC LIMIT 0,1
+
+Time : 18:33:29
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM messages WHERE 
+                        id_expediteur = :dataid11 AND id_destinataire=:dataid21
+                        OR  id_destinataire = :dataid12 AND id_expediteur=:dataid22
+                        ORDER BY id DESC LIMIT 0,1
+
+Time : 18:33:08
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT * FROM messages WHERE 
+                        id_expediteur = :dataid1 AND id_destinataire=:dataid2 
+                        OR  id_destinataire = '80' AND id_expediteur='1' 
+                        ORDER BY id DESC LIMIT 0,1
+
+Time : 18:32:53
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT * FROM messages WHERE 
+                        id_expediteur = :dataid1 AND id_destinataire=:dataid2 
+                        OR  id_destinataire = '80' AND id_expediteur='1' 
+                        ORDER BY id DESC LIMIT 0,1
+
+Time : 18:30:50
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT * FROM discussion WHERE id_1 = :userid1 AND archive=:un1 OR id_2 =:userid2 AND archive=:un ORDER BY date DESC
+
+Time : 18:30:35
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT * FROM discussion WHERE id_1 = :userid1 AND archive=:un1 OR id_2 =:userid2 AND archive=:un ORDER BY date DESC
+
+Time : 18:26:14
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'active1' in 'where clause'
+Raw SQL : SELECT * FROM users
+
+Time : 17:40:31
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'firstname' in 'where clause'
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 17:39:24
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'firstname' in 'where clause'
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 17:38:19
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'firstname' in 'where clause'
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 17:37:13
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'firstname' in 'where clause'
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 17:37:04
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'firstname' in 'where clause'
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 17:37:03
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'firstname' in 'where clause'
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 17:36:05
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''.users.' WHERE firstname = ? AND age = ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 17:34:59
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''.users.' WHERE firstname = ? AND age = ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 17:33:53
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''.users.' WHERE firstname = ? AND age = ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 17:32:46
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''.users.' WHERE firstname = ? AND age = ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 17:32:36
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''.users.' WHERE firstname = ? AND age = ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 17:32:29
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''.users.' WHERE firstname = ? AND age = ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 17:29:33
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 17:29:19
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:50:43
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:48:47
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:48:32
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:46:14
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:46:11
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:45:56
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:45:56
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:42:55
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:42:40
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:42:39
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:39:50
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:38:40
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:38:31
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:38:26
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:38:03
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:37:59
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:37:31
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:37:29
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:37:17
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:37:08
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:36:23
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:36:12
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:36:08
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:34:48
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:33:41
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:32:33
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:31:25
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:31:15
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:31:13
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:31:10
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:31:01
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:30:16
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:29:08
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:28:54
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:28:53
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:28:53
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:19:17
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:18:10
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:17:56
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:17:02
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:17:01
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:17:01
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:16:46
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:16:43
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:16:15
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:15:52
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:15:37
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:14:43
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:02:32
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:02:26
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:02:21
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:01:34
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :iduser
+
+Time : 16:01:23
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :id
+
+Time : 16:01:13
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :id
+
+Time : 16:00:58
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :id
+
+Time : 16:00:57
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id = :id
+
+Time : 16:00:14
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id=:id
+
+Time : 15:59:59
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id=:id
+
+Time : 15:59:11
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id=:id
+
+Time : 15:59:05
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id=:id
+
+Time : 15:58:52
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id=:id
+
+Time : 15:58:50
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id=:id
+
+Time : 15:56:59
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id=:id
+
+Time : 15:56:45
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id=:id
+
+Time : 15:55:51
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id=:id
+
+Time : 15:55:36
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id=:id
+
+Time : 15:54:43
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id=:id
+
+Time : 15:54:33
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id=:id
+
+Time : 15:54:28
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id=:id
+
+Time : 15:54:09
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? WHERE firstname = ? AND age = ? ?' at line 1
+Raw SQL : SELECT * FROM users WHERE id=:id
+
+Time : 14:43:40
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT count(*) FROM discussion WHERE id_1 = :id OR id_2 = :id2 ORDER BY date DESC,readed DESC LIMIT 0,5
+
+Time : 14:43:38
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT count(*) FROM discussion WHERE id_1 = :id OR id_2 = :id2 ORDER BY date DESC,readed DESC LIMIT 0,5
+
+Time : 14:42:28
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT count(*) FROM discussion WHERE id_1 = :id OR id_2 = :id2 ORDER BY date DESC,readed DESC LIMIT 0,5
